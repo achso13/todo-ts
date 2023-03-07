@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  @apply bg-gray-100 bg-[url("assets/images/bg-mobile-light.jpg")] bg-no-repeat dark:bg-gray-800 dark:bg-[url("assets/images/bg-mobile-dark.jpg")] xs:bg-[url("assets/images/bg-desktop-light.jpg")] dark:xs:bg-[url("assets/images/bg-desktop-dark.jpg")];
+}
